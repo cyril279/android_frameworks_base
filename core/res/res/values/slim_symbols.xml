@@ -177,4 +177,7 @@
   <!-- PlatLogo -->
   <java-symbol type="drawable" name="slim_platlogo" />
 
+  <!-- Doze invert -->
+  <java-symbol type="bool" name="config_invert_colors_on_doze" />
+
 </resources>
