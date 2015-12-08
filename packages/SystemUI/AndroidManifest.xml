@@ -443,5 +443,13 @@
             android:exported="true"
             android:singleUser="true"
             android:permission="android.permission.BIND_DREAM_SERVICE" />
+
+        <activity android:name=".DaylightHeaderDefault"
+                android:label="Default" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 </manifest>
